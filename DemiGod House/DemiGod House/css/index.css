@@ -1,0 +1,3593 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Map */
+#map {
+  height: 100%;
+  margin-top: -90px;
+}
+
+.gm-fullscreen-control {
+  top: 80% !important;
+}
+
+/* Event Categories */
+@media (max-width: 467px) {
+  .upcoming {
+    text-align: center;
+  }
+  .aftci {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .ecate {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 468px) {
+  .aftci {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .ecate {
+    margin: 80px;
+  }
+}
+
+.upcoming {
+  display: flex;
+  justify-content: center;
+  margin: 7rem 1px 20px;
+  padding: 5px;
+}
+
+.upcoming h1 {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media (min-width: 441px) {
+  .upcoming h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .upcoming h1 {
+    font-size: 29px;
+  }
+}
+
+.upcoming span {
+  color: #fb0;
+  font-weight: 600;
+}
+
+.aftup {
+  margin: 1.5rem 0rem;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.aftup i {
+  margin: 0px 5px;
+  font-size: 20px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.aftci {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ecate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.categories_box {
+  margin: 14px 4px;
+  border-radius: 0px;
+  position: relative;
+  height: 210px;
+}
+
+.categories_box img {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.categories_img {
+  height: 100%;
+  width: 100%;
+}
+
+.categories-content {
+  padding: 10px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  cursor: pointer;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0,
+    rgba(2, 0, 5, 0) 2%,
+    rgb(36, 14, 70) 100%
+  );
+}
+
+.categories-content:hover {
+  transition: 0.2s;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(2, 0, 5, 0) 2%,
+    #60f 100%
+  );
+}
+
+.categories-content:visited {
+  padding: 10px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(2, 0, 5, 0) 2%,
+    #60f 100%
+  );
+}
+
+.categories_text {
+  display: block;
+  border: 1px dashed #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 55px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  transition: 0.2s;
+}
+
+.categories_text a span{
+  color: white;
+}
+
+.categories_text a:hover span, .categories_text a:hover{
+  color: #ebc013;
+  text-decoration: none !important;
+}
+
+.categories_text_extra {
+  padding: 75px 15px;
+}
+
+.categories_text .primary {
+  font-weight: 500;
+  display: block;
+  line-height: 40px;
+  margin-bottom: -4px;
+  font-size: 25px;
+}
+
+.categories_text .secondary {
+  font-weight: 600;
+  line-height: 40px;
+  display: block;
+  font-size: 32px;
+}
+
+/* Navigation Bar */
+nav {
+  line-height: 17px;
+}
+
+#category-name-effect, #category-name-effect2{
+  display: none;
+}
+
+#dmenu {
+  z-index: 99999999;
+  margin-top: 10px;
+}
+
+.dropdown:hover, #category-name-effect {
+  color: #ebc013 !important;
+}
+
+.dropdown:hover #category-name-effect {
+  display: contents !important;
+}
+
+.dropdown-main-items-list:hover #category-name-effect {
+  display: contents !important;
+}
+
+.dropdown:hover #category-name-effect,
+.dropdown:hover .dropdown-name {
+  color: #ebc013 !important;
+}
+
+.dropdown:hover, #category-name-effect2 {
+  color: #ebc013 !important;
+}
+
+.dropdown:hover #category-name-effect2 {
+  display: contents !important;
+  font-size: 1rem;
+}
+
+.dropdown-main-items-list:hover #category-name-effect2 {
+  display: contents !important;
+}
+
+.dropdown:hover #category-name-effect2,
+.dropdown:hover .dropdown-name {
+  color: #ebc013 !important;
+}
+
+.navbar .dropdown-menu div[class*="col"] {
+  margin-bottom: 1rem;
+}
+
+.dropdown-name {
+  color: rgb(252, 249, 249) !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-name:hover{
+  color: #ebc013 !important;
+}
+
+@media (min-width: 990px) and (max-width: 1274px) {
+  .dropdown-name {
+    font-size: 10px !important;
+  }
+}
+
+.dropdown-menu-list {
+  display: flex;
+}
+
+.navbar .dropdown-menu {
+  border: none;
+  background-color: #fff !important;
+}
+
+.drop-item-name {
+  color: #000 !important;
+}
+
+.drop-item-name::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+
+.drop-item-name:hover::after {
+  width: 65%;
+}
+
+.drop-category-heading {
+  color: #ebc013;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 0 !important;
+  font-family: poppins;
+}
+
+.dropdown-main-items-list {
+  flex: 4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dropdown-main-image-list {
+  flex: 0.7;
+}
+
+.dropdown-main-image-list img {
+  width: 200px;
+  height: 150px;
+}
+
+@media (max-width: 400px) {
+  .dropdown-main-image-list img {
+    width: 150px !important;
+    height: 100px !important;
+  }
+  .active {
+    font-size: 15px !important;
+  }
+}
+
+.item-image {
+  padding-bottom: 10px;
+}
+
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  list-style-type: none;
+  font-family: "Times New Roman";
+  border: none;
+  font-size: 20px;
+  color: rgb(245, 239, 239);
+  outline: none;
+}
+
+.location-dropdown p{
+  margin: 0 !important;
+  padding-right: 0.5em;
+}
+
+.location-dropdown:hover {
+  color: #ebc013;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sign-in-button {
+  background: none;
+  border: none;
+}
+
+.sign-in-button i {
+  color: #ebc013;
+  padding: 10px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.sign-in-button i:hover {
+  color: #fff;
+  background-color: #ebc013;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.navbar {
+  z-index: 999;
+  background-color: #141414;;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background: #514e6e;
+  }
+  .nav-image {
+    width: 25%;
+  }
+}
+
+@media (min-width: 993px) {
+  .nav-image {
+    width: 200px;
+    margin: -10px 0px -12px;
+  }
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding: 0.5rem 0rem;
+    margin: 0 0.25rem;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  
+  }
+
+  .navbar .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    /*  height of nav-item  */
+    top: 45px;
+
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .nav-link span {
+    color: #fff !important;
+  }
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+}
+
+@media (min-width:595px) and (max-width: 992px){
+  .image-home{
+    width: 100%;
+  }
+}
+
+@media (max-width: 594px){
+  .image-home{
+    width: 80%;
+  }
+}
+
+@media(min-width: 992px){
+  .image-home{
+    flex: 2;
+  }
+  .navbar-collapse{
+    flex: 2;
+  }
+  .navbar{
+    height: 4rem;
+  }
+}
+
+/* Location Modal */
+.model-head {
+  border-bottom: none !important;
+}
+
+.model-head h2 {
+  font-size: 1.5rem;
+}
+
+.model-search-box {
+  display: flex;
+  align-items: center;
+}
+
+.model-search-box h3 {
+  font-size: 1.1rem;
+}
+
+.model-search-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0px 0px 5px;
+}
+
+.model-search-box i {
+  border: 1px solid black;
+  padding: 10.1px;
+  font-size: 20px;
+  margin-left: -0.5px;
+  cursor: pointer;
+}
+
+.model-close-button span {
+  font-size: 40px;
+}
+
+.country-flags {
+  margin: 20px 0px;
+}
+
+.country-flags h2 {
+  color: #595959;
+  font-size: 25px;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.flags-first-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.flag-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.flag-main img {
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  margin: 0px 8px;
+}
+
+.flag-main img:hover {
+  border: 1px solid black;
+}
+
+/* Maps */
+.maps {
+  margin-top: 1rem;
+  height: 760px;
+}
+
+.maps-item {
+  height: 800px !important;
+}
+
+@media (max-width: 900px){
+  .maps-inner{
+    overflow: initial !important;
+  }
+  .maps{
+    height: 86rem !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .maps {
+    height: 180rem !important;
+  }
+}
+
+.india,
+.europe,
+.america,
+.canada,
+.sea,
+.australia,
+.brazil,
+.africa {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.map-slider-prev,
+.map-slider-next {
+  width: 2% !important;
+  height: 6%;
+  top: 50%;
+}
+
+.map-slider-prev {
+  margin-left: 1rem;
+}
+
+.map-slider-next {
+  margin-right: 2.4rem;
+}
+
+.map-slider-prev-icon i, .map-slider-next-icon i{
+  color: #fb0;
+  font-size: 40px;
+}
+
+.india-map {
+  margin-left: 2rem;
+  background: url("../assets/images/India_map_index.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+  
+}
+
+.europe-map {
+  margin-left: 2rem;
+  background: url("../assets/images/europe_map_index.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.usa-map {
+  margin-left: 2rem;
+  background: url("../assets/images/america_map_index.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.australia-map {
+  margin-left: 2rem;
+  background: url("../assets/images/australia_map_index.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.brazil-map {
+  margin-left: 2rem;
+  background: url("../assets/images/brazil-map.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.africa-map {
+  margin-left: 2rem;
+  background: url("../assets/images/africa_map_index.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.canada-map {
+  margin-left: 2rem;
+  background: url("../assets/images/canada_map.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.sea-map {
+  margin-left: 2rem;
+  background: url("../assets/images/south-east-asia-map.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+}
+
+.maps-item h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.maps-item h3 span {
+  color: #fb0;
+  font-style: italic;
+}
+
+.marker-maps {
+  font-size: 27px;
+  color: gold;
+}
+
+.marker-maps:hover {
+  font-size: 25px;
+  color: #3f3d56;
+  transition: 0.5s;
+}
+
+.india-marker-srinagar {
+  background: none;
+  border: none;
+  padding-left: 28%;
+  padding-top: 6%;
+  
+}
+
+@media (max-width: 1281px){
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 10% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 28.5% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 27% !important;
+  }
+  .india-marker-patna{
+    padding-top: 0% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 16% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 34% !important;
+  }
+  .india-marker-daman{
+    padding-left: 18% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 40% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 20% !important;
+  }
+  .india-marker-goa{
+    padding-left: 19% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 41% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26.50% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 24px !important;
+  }
+  .europe-marker-iceland{
+    padding-top: 38.5% !important;
+  }
+  .america-marker-washington{
+    padding-top: 27.5% !important;
+  }
+  .america-marker-ny{
+    padding-left: 34% !important;
+  }
+  .america-marker-hawaii{
+    padding-top: 10.5% !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 70% !important;
+  }
+  .sea-marker-nkorea{
+    padding-left: 70% !important;
+    padding-top: 7% !important;
+  }
+  .sea-marker-seoul{
+    padding-left: 72% !important;
+  }
+  .sea-marker-malaysia{
+    padding-left: 16.5% !important;
+  }
+  .sea-marker-singapore{
+    padding-left: 19.5% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 15% !important;
+  }
+  .australia .marker-maps{
+    font-size: 25px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 53.5% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 45% !important;
+  }
+  .brazil-marker-chile{
+    padding-left: 35% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 28% !important;
+  }
+}
+
+@media (max-width: 1181px){
+  .marker-maps{
+    font-size: 27px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 13% !important;
+  }
+}
+
+@media (max-width: 1025px){
+  .marker-maps{
+    font-size: 25px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 25% !important;
+    
+  }
+  .india-marker-shimla{
+    padding-left: 31% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 28.5% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 30% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 27% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-patna{
+    padding-top: 0% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 16% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 31% !important;
+  }
+  .india-marker-daman{
+    padding-left: 15% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 37% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 15% !important;
+  }
+  .india-marker-goa{
+    padding-left: 19% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 31.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 41% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26.5% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 1rem !important;
+  }
+  .europe-marker-iceland{
+    padding-top: 55.5% !important;
+  }
+  .europe-marker-dublin{
+    padding-top: 3% !important;
+  }
+  .america .marker-maps{
+    font-size: 21px !important;
+  }
+  .america-marker-washington{
+    padding-top: 43.5% !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 84% !important;
+  }
+  .sea .marker-maps{
+    font-size: 21px !important;
+  }
+  .sea-marker-nkorea{
+    padding-top: 21% !important;
+  }
+  .sea-marker-myanmar{
+    padding-left: 6% !important;
+  }
+  .sea-marker-taiwan{
+    padding-left: 45% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 18% !important;
+  }
+  .australia .marker-maps{
+    font-size: 18px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 70% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 64% !important;
+  }
+  .brazil-marker-chile{
+    padding-left: 31% !important;
+  }
+  .africa .marker-maps{
+    font-size: 22px !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 43% !important;
+  }
+}
+
+@media (max-width: 914px){
+  .marker-maps{
+    font-size: 20px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 39% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 31% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 28.5% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 30% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 27% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-patna{
+    padding-top: 0% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 16% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 31% !important;
+  }
+  .india-marker-daman{
+    padding-left: 15% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 37% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 15% !important;
+  }
+  .india-marker-goa{
+    padding-left: 18% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 31.5% !important;
+    padding-top: 4% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 41% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26.5% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 10px !important;
+  }
+  .europe-marker-iceland{
+    padding-top: 70% !important;
+  }
+  .europe-marker-dublin{
+    padding-top: 5% !important;
+  }
+  .america-marker-washington{
+    padding-top: 56% !important;
+  }
+  .america-marker-ny{
+    padding-left: 33% !important;
+  }
+  .america-marker-hawaii{
+    padding-top: 7.5% !important;
+  }
+  .canada .marker-maps{
+    font-size: 1rem !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 102% !important;
+  }
+  .sea-marker-nkorea{
+    padding-top: 32% !important;
+  }
+  .sea-marker-taiwan{
+    padding-left: 42.5% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 14% !important;
+  }
+  .australia .marker-maps{
+    font-size: 15px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 85% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 80% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 55% !important;
+  }
+}
+
+@media (max-width: 850px){
+  .marker-maps{
+    font-size: 25px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 30% !important;
+    padding-top: 9% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 34% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 33% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 34% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 31% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-patna{
+    padding-top: 3% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 12% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 24% !important;
+  }
+  .india-marker-diu{
+    padding-left: 16% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 28% !important;
+  }
+  .india-marker-daman{
+    padding-left: 22% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 32% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 21% !important;
+  }
+  .india-marker-goa{
+    padding-left: 23.5% !important;
+    padding-top: 3% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 35.5% !important;
+    padding-top: 4% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 35.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 31.5% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 24px !important;
+  }
+  .europe-marker-iceland{
+    padding-left: 17% !important;
+    padding-top: 28% !important;
+  }
+  .america .marker-maps{
+    font-size: 25px !important;
+  }
+  .america-marker-washington{
+    padding-top: 18% !important;
+  }
+  .america-marker-lv{
+    padding-top: 5.5% !important;
+  }
+  .america-marker-hawaii{
+    padding-top: 12.5% !important;
+  }
+  .canada .marker-maps{
+    font-size: 25px !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 62% !important;
+  }
+  .sea .marker-maps{
+    font-size: 25px !important;
+  }
+  .sea-marker-nkorea{
+    padding-left: 68% !important;
+    padding-top: 3% !important;
+  }
+  .sea-marker-seoul{
+    padding-left: 70% !important;
+  }
+  .sea-marker-myanmar{
+    padding-left: 9% !important;
+  }
+  .sea-marker-malaysia{
+    padding-left: 21.5% !important;
+  }
+  .sea-marker-singapore{
+    padding-left: 24.5% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 12% !important;
+  }
+  .australia .marker-maps{
+    font-size: 25px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 44% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 34% !important;
+  }
+  .brazil-marker-chile{
+    padding-left: 38% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 19% !important;
+  }
+}
+
+@media (max-width: 770px){
+  .marker-maps{
+    font-size: 25px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 30% !important;
+    padding-top: 9% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 34% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 31% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 32% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 30% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-patna{
+    padding-top: 1.5% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 12% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 21% !important;
+  }
+  .india-marker-diu{
+    padding-left: 14% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 28% !important;
+  }
+  .india-marker-daman{
+    padding-left: 19% !important;
+    padding-top: 3% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 32% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 19% !important;
+  }
+  .india-marker-goa{
+    padding-left: 21.5% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 35.5% !important;
+    padding-top: 4% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 37% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 29% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 24px !important;
+  }
+  .europe-marker-iceland{
+    padding-left: 17% !important;
+    padding-top: 30% !important;
+  }
+  .america-marker-washington{
+    padding-top: 22% !important;
+  }
+  .america-marker-hawaii{
+    padding-top: 10.5% !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 65% !important;
+  }
+  .sea-marker-malaysia{
+    padding-top: 18% !important;
+    padding-left: 19% !important;
+  }
+  .sea-marker-singapore{
+    padding-left: 22.5% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 14% !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 47% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 38% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 23% !important;
+  }
+}
+
+@media (max-width: 650px){
+  .marker-maps{
+    font-size: 20px !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 29% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 30% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 29% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 32% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 26% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-patna{
+    padding-left: 62% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 12% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 33% !important;
+  }
+  .india-marker-daman{
+    padding-left: 15% !important;
+    padding-top: 3% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 32% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 15% !important;
+  }
+  .india-marker-goa{
+    padding-left: 17.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 32% !important;
+    padding-top: 4% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 2% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 42% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 1rem !important;
+  }
+  .europe-marker-iceland{
+    padding-left: 17% !important;
+    padding-top: 56% !important;
+  }
+  .america .marker-maps{
+    font-size: 18px !important;
+  }
+  .america-marker-washington{
+    padding-top: 47% !important;
+  }
+  .canada .marker-maps{
+    font-size: 1rem !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 92% !important;
+  }
+  .sea .marker-maps{
+    font-size: 20px !important;
+  }
+  .sea-marker-nkorea{
+    padding-left: 70% !important;
+    padding-top: 26% !important;
+  }
+  .sea-marker-seoul{
+    padding-left: 72% !important;
+  }
+  .sea-marker-myanmar{
+    padding-left: 8% !important;
+  }
+  .sea-marker-malaysia{
+    padding-left: 17% !important;
+  }
+  .sea-marker-singapore{
+    padding-left: 20.5% !important;
+    padding-top: 0% !important;
+  }
+  .australia .marker-maps{
+    font-size: 18px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 74% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 67% !important;
+  }
+  .brazil-marker-chile{
+    padding-left: 33% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 46% !important;
+  }
+}
+
+@media (max-width: 450px){
+  .map-slider-next{
+    margin-right: 12px !important;
+  }
+  .map-slider-next-icon i, .map-slider-prev-icon i{
+    font-size: 25px;
+  }
+  .marker-maps{
+    font-size: 1rem !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 59% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 30% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 29% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 29% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 26% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-patna{
+    padding-left: 62% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 12% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 33% !important;
+  }
+  .india-marker-daman{
+    padding-left: 14% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 32% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 15% !important;
+  }
+  .india-marker-goa{
+    padding-left: 17.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 32% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 1% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 41.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26% !important;
+    padding-top: 10% !important;
+  }
+  .europe .marker-maps{
+    font-size: 8px !important;
+  }
+  .europe-marker-iceland{
+    padding-left: 16% !important;
+    padding-top: 87% !important;
+  }
+  .europe-marker-dublin{
+    padding-top: 7% !important;
+  }
+  .america .marker-maps{
+    font-size: 1rem !important;
+  }
+  .america-marker-washington{
+    padding-top: 76% !important;
+  }
+  .america-marker-lv{
+    padding-left: 22% !important;
+    padding-top: 1.5% !important;
+  }
+  .america-marker-hawaii{
+    padding-left: 37.5% !important;
+    padding-top: 10.5% !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 121% !important;
+  }
+  .sea .marker-maps{
+    font-size: 14px !important;
+  }
+  .sea-marker-nkorea{
+    padding-top: 55% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 17% !important;
+  }
+  .australia .marker-maps{
+    font-size: 10px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 107% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 92% !important;
+  }
+  .africa .marker-maps{
+    font-size: 1rem !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 76% !important;
+  }
+}
+
+@media (max-width: 380px){
+  .marker-maps{
+    font-size: 1rem !important;
+  }
+  .india-marker-srinagar{
+    padding-left: 26% !important;
+    padding-top: 69% !important;
+  }
+  .india-marker-shimla{
+    padding-left: 30% !important;
+    padding-top: 2% !important;
+  }
+  .india-marker-punjab{
+    padding-left: 29% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-delhi{
+    padding-left: 29% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-jaipur{
+    padding-left: 26% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-patna{
+    padding-left: 62% !important;
+  }
+  .india-marker-shillong{
+    padding-left: 12% !important;
+  }
+  .india-marker-ahmedabad{
+    padding-left: 19% !important;
+  }
+  .india-marker-diu{
+    padding-left: 9% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-raipur{
+    padding-left: 33% !important;
+  }
+  .india-marker-daman{
+    padding-left: 14% !important;
+    padding-top: 1% !important;
+  }
+  .india-marker-bhubaneshwar{
+    padding-left: 32% !important;
+  }
+  .india-marker-mumbai{
+    padding-left: 15% !important;
+  }
+  .india-marker-goa{
+    padding-left: 17.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-banglore{
+    padding-left: 32% !important;
+    padding-top: 2.5% !important;
+  }
+  .india-marker-chennai{
+    padding-left: 1% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-portblair{
+    padding-left: 41.5% !important;
+    padding-top: 0% !important;
+  }
+  .india-marker-trivandrum{
+    padding-left: 26% !important;
+    padding-top: 10% !important;
+  }
+  .europe-marker-iceland{
+    padding-left: 16% !important;
+    padding-top: 102% !important;
+  }
+  .america-marker-washington{
+    padding-top: 89% !important;
+  }
+  .canada-marker-vancouver{
+    padding-top: 134% !important;
+  }
+  .sea-marker-nkorea{
+    padding-top: 69% !important;
+  }
+  .sea-marker-myanmar{
+    padding-left: 7% !important;
+    padding-top: 11% !important;
+  }
+  .sea-marker-jakarta{
+    padding-top: 15% !important;
+  }
+  .australia .marker-maps{
+    font-size: 8px !important;
+  }
+  .australia-marker-brisbane{
+    padding-top: 124% !important;
+  }
+  .brazil-marker-brasilia{
+    padding-top: 110% !important;
+  }
+  .africa-marker-cairo{
+    padding-top: 90% !important;
+  }
+}
+
+
+@media (max-width: 900px){
+  .india, .europe, .america, .canada, .sea, .australia, .brazil, .africa{
+    flex-wrap: wrap !important;
+  }
+}
+
+.india-marker-shimla {
+  background: none;
+  border: none;
+  padding-left: 34%;
+  padding-top: 5%;
+}
+
+.india-marker-punjab {
+  background: none;
+  border: none;
+  padding-left: 32.5%;
+}
+
+.india-marker-dehradun {
+  background: none;
+  border: none;
+  padding-left: 1%;
+}
+
+.india-marker-delhi {
+  background: none;
+  border: none;
+  padding-left: 33%;
+  padding-top: 2%;
+}
+
+.india-marker-jaipur {
+  background: none;
+  border: none;
+  padding-left: 31%;
+  padding-top: 2%;
+}
+
+.india-marker-lucknow {
+  background: none;
+  border: none;
+  padding-left: 10%;
+}
+
+.india-marker-patna {
+  background: none;
+  border: none;
+  padding-left: 58%;
+  padding-top: 1%;
+}
+
+.india-marker-shillong {
+  background: none;
+  border: none;
+  padding-left: 12%;
+}
+
+.india-marker-ahmedabad {
+  background: none;
+  border: none;
+  padding-left: 22%;
+  padding-top: 2.5%;
+}
+
+.india-marker-bhopal {
+  background: none;
+  border: none;
+  padding-left: 4%;
+}
+
+.india-marker-ranchi {
+  background: none;
+  border: none;
+  padding-left: 22.5%;
+}
+
+.india-marker-kolkata {
+  background: none;
+  border: none;
+  padding-left: 3.5%;
+}
+
+.india-marker-diu {
+  background: none;
+  border: none;
+  padding-left: 16%;
+  padding-top: 1.8%;
+}
+
+.india-marker-daman {
+  background: none;
+  border: none;
+  padding-left: 21%;
+}
+
+.india-marker-raipur {
+  background: none;
+  border: none;
+  padding-left: 28%;
+}
+
+.india-marker-bhubaneshwar {
+  background: none;
+  border: none;
+  padding-left: 34%;
+}
+
+.india-marker-mumbai {
+  background: none;
+  border: none;
+  padding-left: 21%;
+}
+
+.india-marker-hyderabad {
+  background: none;
+  border: none;
+  padding-left: 38%;
+  padding-top: 1%;
+}
+
+.india-marker-goa {
+  background: none;
+  border: none;
+  padding-left: 23.5%;
+  padding-top: 1%;
+}
+
+.india-marker-banglore {
+  background: none;
+  border: none;
+  padding-left: 33.5%;
+  padding-top: 5.5%;
+}
+
+.india-marker-chennai {
+  background: none;
+  border: none;
+  padding-left: 4%;
+  padding-top: 5.5%;
+}
+
+.india-marker-portblair {
+  background: none;
+  border: none;
+  padding-left: 35%;
+  padding-top: 5.5%;
+}
+
+.india-marker-trivandrum {
+  background: none;
+  border: none;
+  padding-left: 31%;
+  padding-top: 8.5%;
+}
+
+.europe-marker-iceland {
+  background: none;
+  border: none;
+  padding-left: 16%;
+  padding-top: 30%;
+}
+
+.europe-marker-norway {
+  background: none;
+  border: none;
+  padding-left: 27%;
+}
+
+.europe-marker-sweden {
+  background: none;
+  border: none;
+  padding-left: 1%;
+}
+
+.europe-marker-finland {
+  background: none;
+  border: none;
+  padding-left: 6%;
+}
+
+.europe-marker-moscow {
+  background: none;
+  border: none;
+  padding-left: 74%;
+  padding-top: 12%;
+}
+
+.europe-marker-dublin {
+  background: none;
+  border: none;
+  padding-left: 26.5%;
+  padding-top: 1%;
+}
+
+.europe-marker-london {
+  background: none;
+  border: none;
+  padding-left: 33.5%;
+}
+
+.europe-marker-paris {
+  background: none;
+  border: none;
+  padding-left: 37%;
+}
+
+.europe-marker-switzerland {
+  background: none;
+  border: none;
+  padding-left: 1.5%;
+}
+
+.europe-marker-hungary {
+  background: none;
+  border: none;
+  padding-left: 7%;
+}
+
+.europe-marker-croatia {
+  background: none;
+  border: none;
+  padding-left: 50.5%;
+}
+
+.europe-marker-munich {
+  background: none;
+  border: none;
+  padding-left: 44%;
+}
+
+.europe-marker-poland {
+  background: none;
+  border: none;
+  padding-left: 8%;
+}
+
+.europe-marker-rome {
+  background: none;
+  border: none;
+  padding-left: 48%;
+}
+
+.europe-marker-lisbon {
+  background: none;
+  border: none;
+  padding-left: 25.5%;
+}
+
+.europe-marker-madrid {
+  background: none;
+  border: none;
+  padding-left: 1%;
+}
+
+.europe-marker-athens {
+  background: none;
+  border: none;
+  padding-left: 22.5%;
+}
+
+.america-marker-washington {
+  background: none;
+  border: none;
+  padding-left: 22%;
+  padding-top: 19.5%;
+}
+
+.america-marker-ndakota {
+  background: none;
+  border: none;
+  padding-left: 22%;
+}
+
+.america-marker-sdakota {
+  background: none;
+  border: none;
+  padding-left: 49%;
+}
+
+.america-marker-ny {
+  background: none;
+  border: none;
+  padding-left: 35%;
+  padding-top: 6%;
+}
+
+.america-marker-sf {
+  background: none;
+  border: none;
+  padding-left: 12.5%;
+  padding-top: 2%;
+}
+
+.america-marker-wdc {
+  background: none;
+  border: none;
+  padding-left: 68%;
+}
+
+.america-marker-lv {
+  background: none;
+  border: none;
+  padding-left: 24%;
+  padding-top: 2.5%;
+}
+
+.america-marker-atlanta {
+  background: none;
+  border: none;
+  padding-left: 75%;
+  padding-top: 1.5%;
+}
+
+.america-marker-hawaii {
+  background: none;
+  border: none;
+  padding-left: 38.5%;
+  padding-top: 12.5%;
+}
+
+.canada-marker-vancouver {
+  background: none;
+  border: none;
+  padding-left: 11%;
+  padding-top: 61%;
+}
+
+.canada-marker-calgary {
+  background: none;
+  border: none;
+  padding-left: 6%;
+}
+
+.canada-marker-montreal {
+  background: none;
+  border: none;
+  padding-left: 72%;
+  padding-top: 2%;
+}
+
+.canada-marker-toronto {
+  background: none;
+  border: none;
+  padding-left: 70%;
+}
+
+.sea-marker-nkorea{
+  background: none;
+  border: none;
+  padding-left: 67%;
+  padding-top: 2%;
+}
+
+.sea-marker-seoul{
+  background: none;
+  border: none;
+  padding-left: 70%;
+}
+
+.sea-marker-osaka{
+  background: none;
+  border: none;
+  padding-left: 84%;
+}
+
+.sea-marker-tokyo{
+  background: none;
+  border: none;
+  padding-left: 88%;
+}
+
+.sea-marker-myanmar{
+  background: none;
+  border: none;
+  padding-left: 11%;
+  padding-top: 12.5%;
+}
+
+.sea-marker-taiwan{
+  background: none;
+  border: none;
+  padding-left: 40%;
+}
+
+.sea-marker-bangkok{
+  background: none;
+  border: none;
+  padding-left: 18.5%;
+  padding-top: 12%;
+}
+
+.sea-marker-malaysia{
+  background: none;
+  border: none;
+  padding-left: 19.5%;
+  padding-top: 15%;
+}
+
+.sea-marker-singapore{
+  background: none;
+  border: none;
+  padding-left: 24.5%;
+  padding-top: 1%;
+}
+
+.sea-marker-jakarta{
+  background: none;
+  border: none;
+  padding-left: 30.5%;
+  padding-top: 11.5%;
+}
+
+.australia-marker-brisbane {
+  background: none;
+  border: none;
+  padding-left: 76%;
+  padding-top: 45%;
+}
+
+.australia-marker-sydney {
+  background: none;
+  border: none;
+  padding-left: 70%;
+  padding-top: 13%;
+}
+
+.australia-marker-melbourne {
+  background: none;
+  border: none;
+  padding-left: 58%;
+  padding-top: 4%;
+}
+
+.australia-marker-auckland {
+  background: none;
+  border: none;
+  padding-left: 32%;
+}
+
+.australia-marker-wellington {
+  background: none;
+  border: none;
+  padding-left: 94%;
+}
+
+.brazil-marker-brasilia {
+  background: none;
+  border: none;
+  padding-left: 64.4%;
+  padding-top: 34%;
+}
+
+.brazil-marker-rdj {
+  background: none;
+  border: none;
+  padding-left: 72.5%;
+  padding-top: 7%;
+}
+
+.brazil-marker-sp {
+  background: none;
+  border: none;
+  padding-left: 66%;
+}
+
+.brazil-marker-chile {
+  background: none;
+  border: none;
+  padding-left: 37%;
+  padding-top: 1%;
+}
+
+.brazil-marker-argentina {
+  background: none;
+  border: none;
+  padding-left: 46%;
+  padding-top: 7%;
+}
+
+.africa-marker-cairo {
+  background: none;
+  border: none;
+  padding-left: 62%;
+  padding-top: 19%;
+}
+
+.africa-marker-nairobi {
+  background: none;
+  border: none;
+  padding-left: 69.5%;
+  padding-top: 28.5%;
+}
+
+.africa-marker-capetown {
+  background: none;
+  border: none;
+  padding-left: 51%;
+  padding-top: 25.5%;
+}
+
+.maps button:focus {
+  outline: none !important;
+}
+
+#punjab-india-event-list {
+  margin: 50px 0px 100px !important;
+}
+
+#punjab-india-event-list h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#punjab-india-event-list h2 span {
+  color: #fb0;
+  font-weight: 600;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 432px){
+  .event-list{
+    justify-content: center !important;
+  }
+}
+
+.event-list-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 186px;
+  height: 290px;
+}
+
+.event-list-item p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.event-list-main h4 {
+  font-size: 2rem;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  margin: 1rem 0px 1rem;
+}
+
+.event-list-main h4 span {
+  color: #fb0;
+  font-style: italic;
+}
+
+.fade-effect .carousel-item {
+  opacity: 0;
+  transition-duration: 0.6s;
+  transition-property: opacity;
+}
+
+.fade-effect .carousel-item.active,
+.fade-effect .carousel-item-next.carousel-item-left,
+.fade-effect .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.fade-effect .active.carousel-item-left,
+.fade-effect .active.carousel-item-right {
+  opacity: 0;
+}
+
+.fade-effect .carousel-item-next,
+.fade-effect .carousel-item-prev,
+.fade-effect .carousel-item.active,
+.fade-effect .active.carousel-item-left,
+.fade-effect .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.map-slider-prev-icon, .map-slider-next-icon{
+  background-image: none !important;
+}
+
+.event-services-item-map {
+  height: 290px;
+  flex: 1 0 100%;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  flex-basis: 20%;
+}
+
+.event-services-item-map::before {
+  background-color: rgba(10, 10, 10, 0.3);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.event-services-item-map:hover {
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.event-services-item-map:hover .event-services-img-map {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+
+.event-services-item-map .event-services-img-map1 {
+  background-image: url("../assets/images/corporate-Events.jpg");
+
+}
+.event-services-item-map .event-services-img-map2 {
+  background-image: url("../assets/images/nightlife.webp");
+
+}
+.event-services-item-map .event-services-img-map3 {
+  background-image: url("../assets/images/religious.webp");
+
+}
+.event-services-item-map .event-services-img-map4 {
+  background-image: url("../assets/images/sports.webp");
+
+}
+
+
+.event-services-img-map1, .event-services-img-map2, .event-services-img-map3, .event-services-img-map4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a;
+  background-position: center;
+  background-size: cover;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.event-services-inner-map {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-services-inner-map h3 {
+  margin: 5px 0px 50px;
+  color: #fff;
+  position: relative;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+@media (min-width: 990px) and (max-width: 1100px) {
+  .event-services-inner-map h3 {
+    font-size: 20px !important;
+  }
+}
+
+.event-services-inner-map h3::before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fefefe;
+}
+
+.event-services-counter-map {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
+.event-services-content-map {
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.event-services-content-map p {
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 50px;
+}
+
+.btn-white-map {
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  color: #fefefe !important;
+  border-color: #fefefe;
+  font-size: 20px;
+  background-color: rgba(10, 10, 10, 0.3);
+  padding: 10px 40px;
+}
+
+.btn-white-map:hover {
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+.event-services-item-map:hover .event-services-content-map {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 0.3s 0.3s, transform 0.3s 0.3s;
+}
+
+/* Upcoming Hot Events */
+.hot-events {
+  margin-bottom: 4rem;
+}
+
+.upcoming-main-cards {
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.upcoming-card-one {
+  margin: 0px -45px 0px 29px;
+}
+
+.upcoming-card-one h4 {
+  color: #4e4a80;
+  padding: 10px 0px 5px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.upcoming-card-one p {
+  font-size: 20px;
+  padding: 2px 0px;
+}
+
+.upcoming-card-content-one {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event1.webp");
+  border-radius: 5%;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.upcoming-card-content-two {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event12.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-content-three {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event3.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-content-four {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event14.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-content-five {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event15.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-content-six {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event12.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-content-seven {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event1.webp");
+  border-radius: 5%;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.upcoming-card-content-eight {
+  height: 25rem;
+  width: 76%;
+  background: url("../assets/images/event12.webp");
+  border-radius: 5%;
+  background-size: cover;
+}
+
+.upcoming-card-main-content {
+  width: 76%;
+  border-radius: 10%;
+  padding-left: 10px;
+}
+
+.upcoming-card-main-content h4,
+.upcoming-card-main-content p {
+  text-align: left;
+}
+
+.pull-left {
+  color: #fff;
+  background-color: #ebc013ad;
+  border: none;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  position: absolute;
+  top: 47%;
+  left: 0%;
+  z-index: 999;
+  cursor: pointer;
+  display: none;
+}
+
+.pull-left:hover {
+  background-color: #ebc013;
+}
+
+.pull-right {
+  color: #fff;
+  background-color: #ebc013ad;
+  border: none;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0%;
+  bottom: 45%;
+  cursor: pointer;
+  display: block !important;
+}
+
+.pull-right:hover {
+  background-color: #ebc013;
+}
+
+.upcoming-card-category {
+  display: flex;
+  margin: 10px;
+}
+
+.upcoming-card-category button {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ebc013;
+  border-radius: 50%;
+  border: none;
+}
+
+.upcoming-card-category p {
+  padding: 0 !important;
+}
+
+.upcoming-card-category i {
+  font-size: 20px;
+  color: #ebc013;
+  margin: 0px 5px;
+}
+
+.uco-date {
+  display: flex;
+  margin: 0px 5px;
+  align-items: center;
+}
+
+/* Event Services */
+.event-services-main {
+  margin-bottom: 2rem;
+}
+
+.event-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 990px) {
+  .event-services-list {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 989px) {
+  .event-services-list {
+    flex-direction: column;
+  }
+}
+
+.event-services-item {
+  height: 650px;
+  flex: 1 0 100%;
+  padding: 1.875em;
+  position: relative;
+  overflow: hidden;
+  flex-basis: 20%;
+}
+
+.event-services-item::before {
+  background-color: rgba(10, 10, 10, 0.3);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.event-services-item:hover {
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.event-services-item:hover .event-services-img {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+
+.event-services-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a;
+  background-position: center;
+  background-size: cover;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.event-services-inner {
+  margin-top: 50px;
+  position: relative;
+  z-index: 4;
+}
+
+.event-services-inner h3 {
+  margin: 5px 0px 50px;
+  color: #fff;
+  position: relative;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5625em;
+  line-height: 1.4;
+}
+
+@media (min-width: 990px) and (max-width: 1100px) {
+  .event-services-inner h3 {
+    font-size: 20px !important;
+  }
+}
+
+.event-services-inner h3::before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background-color: #fefefe;
+}
+
+.event-services-counter {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
+.event-services-content {
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.event-services-content p {
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 50px;
+}
+
+.event-services-image-one{
+  background-image: url("../assets/images/corporate-service-1.webp");
+}
+
+.event-services-image-two{
+  background-image: url("../assets/images/corporate_service-2.webp");
+}
+
+.event-services-image-three{
+  background-image: url("../assets/images/corporate-service-3.webp");
+}
+
+.event-services-image-four{
+  background-image: url("../assets/images/corporate-service-4.webp");
+}
+
+.event-services-image-five{
+  background-image: url("../assets/images/corporate-service-5.webp");
+}
+
+.btn-white {
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  color: #fefefe !important;
+  border-color: #fefefe;
+  font-size: 20px;
+  background-color: rgba(10, 10, 10, 0.3);
+  padding: 15px 50px;
+}
+
+.btn-white:hover {
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+.event-services-item:hover .event-services-content {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 0.3s 0.3s, transform 0.3s 0.3s;
+}
+
+/* Membership Ticket */
+.ticket {
+  position: relative;
+  border: 2px solid black;
+  background: url("../assets/images/membership-bg.webp");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  padding: 0em 2em 1rem;
+}
+.ticket:before,
+.ticket:after {
+  /* background: white; */
+  height: 90px;
+  width: 45px;
+  /* content: ""; */
+  position: absolute;
+  top: 0.9em;
+  top: 47%;
+  height: 45px;
+  width: 2rem;
+  border: 2px solid black;
+}
+.ticket:before {
+  left: -2px;
+  border-radius: 0 1em 1em 0;
+  border-left-color: white;
+}
+.ticket:after {
+  right: -2px;
+  border-radius: 1em 0 0 1em;
+  border-right-color: white;
+}
+
+#bottom {
+  box-sizing: border-box;
+  padding: 0px 0px 10px;
+  margin: 0px 0px 1.5rem;
+}
+
+#bottom-silver {
+  box-sizing: border-box;
+  padding: 0px 0px 10px;
+  margin: 0px 0px 1.5rem;
+}
+
+#bottom-diamond {
+  box-sizing: border-box;
+  padding: 0px 0px 10px;
+  margin: 0px 0px 1.5rem;
+}
+
+.ribbon-container h1 {
+  color: #333;
+  font-family: Zapfino, "Edwardian Script ITC", cursive;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 6px 4px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  margin: 0 0 20px;
+}
+.ribbon-container {
+  background: transparent !important;
+  position: relative;
+  z-index: 1;
+}
+@media(max-width: 550px){
+  .ribbon, .silver-ribbon, .diamond-ribbon{
+    width: 70% !important;
+  }
+}
+.ribbon {
+  background: gold;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.5);
+  font-family: Charter, serif;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em 0;
+  position: relative;
+  width: 27%;
+}
+.ribbon:before,
+.ribbon:after {
+  border: 1.5em solid #ebc013;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -23px;
+  z-index: -1;
+}
+.ribbon:before {
+  left: -1.5em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.ribbon:after {
+  right: -1.5em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.ribbon-content {
+  border-top: 0.0625em dashed hsl(30, 90%, 44%);
+  border-bottom: 0.0625em dashed hsl(30, 90%, 44%);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.08),
+    inset 0px -1px 1px rgba(255, 255, 255, 0.08),
+    0px -1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 10px 0;
+  color: #3f3d56 !important;
+  font-size: 1.5rem;
+  font-weight: 700 !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.ribbon-content:before,
+.ribbon-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-color: rgb(219, 197, 72) transparent transparent transparent;
+  bottom: -1em;
+}
+.ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+.ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+.ribbon a {
+  color: hsl(30, 90%, 40%);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25);
+}
+.ribbon a:hover {
+  color: hsl(30, 90%, 43%);
+}
+
+.silver-ribbon-container h1 {
+  color: #333;
+  font-family: Zapfino, "Edwardian Script ITC", cursive;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 6px 4px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  margin: 0 0 20px;
+}
+.silver-ribbon-container {
+  background: transparent !important;
+  position: relative;
+  z-index: 1;
+}
+.silver-ribbon {
+  background: rgb(221, 221, 221);
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.5);
+  font-family: Charter, serif;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em 0;
+  position: relative;
+  width: 27%;
+}
+.silver-ribbon:before,
+.silver-ribbon:after {
+  border: 1.5em solid rgb(193, 185, 185);
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -23px;
+  z-index: -1;
+}
+.silver-ribbon:before {
+  left: -1.5em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.silver-ribbon:after {
+  right: -1.5em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.silver-ribbon-content {
+  border-top: 0.0625em dashed black;
+  border-bottom: 0.0625em dashed black;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.08),
+    inset 0px -1px 1px rgba(255, 255, 255, 0.08),
+    0px -1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 10px 0;
+  color: #3f3d56 !important;
+  font-size: 1.5rem;
+  font-weight: 700 !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.silver-ribbon-content:before,
+.silver-ribbon-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-color: rgb(168, 168, 168, 1) transparent transparent transparent;
+  bottom: -1em;
+}
+.silver-ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+.silver-ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+.silver-ribbon a {
+  color: hsl(30, 90%, 40%);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25);
+}
+.silver-ribbon a:hover {
+  color: hsl(30, 90%, 43%);
+}
+
+.diamond-ribbon-container h1 {
+  color: #333;
+  font-family: Zapfino, "Edwardian Script ITC", cursive;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 6px 4px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  margin: 0 0 20px;
+}
+.diamond-ribbon-container {
+  background: transparent !important;
+  position: relative;
+  z-index: 1;
+}
+.diamond-ribbon {
+  background: rgb(103, 184, 255);
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.5);
+  font-family: Charter, serif;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em 0;
+  position: relative;
+  width: 27%;
+}
+.diamond-ribbon:before,
+.diamond-ribbon:after {
+  border: 1.5em solid rgb(73, 122, 164);
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -23px;
+  z-index: -1;
+}
+.diamond-ribbon:before {
+  left: -1.5em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.diamond-ribbon:after {
+  right: -1.5em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.diamond-ribbon-content {
+  border-top: 0.0625em dashed blue;
+  border-bottom: 0.0625em dashed blue;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.08),
+    inset 0px -1px 1px rgba(255, 255, 255, 0.08),
+    0px -1px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 10px 0;
+  color: #3f3d56 !important;
+  font-size: 1.5rem;
+  font-weight: 700 !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+@media (min-width: 550px) and (max-width: 750px){
+  .ribbon-content, .diamond-ribbon-content, .silver-ribbon-content{
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 549px){
+  .ribbon-content, .diamond-ribbon-content, .silver-ribbon-content{
+    font-size: 12px !important;
+  }
+}
+
+.diamond-ribbon-content:before,
+.diamond-ribbon-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-color: rgb(99, 151, 197) transparent transparent transparent;
+  bottom: -1em;
+}
+.diamond-ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+.diamond-ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+.diamond-ribbon a {
+  color: hsl(30, 90%, 40%);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25);
+}
+.diamond-ribbon a:hover {
+  color: hsl(30, 90%, 43%);
+}
+
+.membership-ticket-main-blocks {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0rem;
+}
+
+.membership-ticket-main-block-one {
+  margin: 0px 0px 1rem;
+}
+
+.membership-ticket-main-block-one h6 {
+  color: #fb0;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.membership-ticket-main-block-two {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 992px){
+  .membership-ticket-main-block-two{
+    flex-direction: column;
+  }
+}
+
+.membership-block-two-top {
+  flex: 0.5;
+  padding-top: 2rem;
+}
+
+.membership-block-two-top img {
+  height: 15rem;
+}
+
+@media (max-width: 600px){
+  .membership-block-two-top img{
+    height: 10rem !important;
+    margin-bottom: 2rem;
+  }
+  .membership-block-two-middle{
+    margin-bottom: 2rem;
+  }
+}
+
+.membership-block-two-middle {
+  flex: 2;
+}
+
+.membership-block-two-bottom {
+  flex: 1.4;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.membership-description {
+  text-align: left;
+  line-height: 28px;
+  margin: 0px 2rem;
+}
+
+.membership-description h3,
+.membership-block-two-bottom h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.membership-description p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+  border-left: 2px solid gold;
+  border-bottom: 2px solid gold;
+  padding: 0px 1rem 0px 0.5rem;
+}
+
+.membership-benefits li {
+  color: #fff;
+  margin: 0px 0px 15px;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: none;
+  list-style-type: none !important;
+}
+
+.membership-benefits li::before {
+  content: "✓";
+  margin-right: 2px;
+}
+
+.membership-know-more {
+  padding: 10px 0rem;
+}
+
+.membership-know-more a {
+  color: #fff;
+  padding: 1rem;
+  border-left: 2px solid gold;
+  border-bottom: 2px solid gold;
+  transition: 0.5s;
+  text-transform: none;
+}
+
+.membership-know-more a:hover {
+  color: #ebc013;
+  transition: 0.5s;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.membership-know-more a span {
+  text-transform: uppercase;
+}
+
+.ticket-next-btn {
+  justify-content: end;
+  top: 40px;
+  left: 83%;
+}
+
+.ticket-next-btn i {
+  opacity: 1 !important;
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: gold;
+}
+
+.ticket-prev-btn {
+  align-items: center;
+  justify-content: end;
+  top: 40px;
+  left: -5.5%;
+}
+
+.ticket-prev-btn i {
+  opacity: 1 !important;
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: gold;
+}
+
+.gold-membership-cost {
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.silver-membership-cost {
+  color: silver;
+  font-size: 1.5rem;
+}
+
+.ticket-next-btn span,
+.ticket-prev-btn span {
+  color: #ebc013;
+  font-size: 2rem;
+  margin: 2rem 8px 0rem;
+}
+
+/* Footer */
+.footer-main {
+  border-top: 7px solid #ffcc00;
+  background: url("../assets/images/index_footer_bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: fit-content;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-main h2 {
+  color: #ebc013;
+  font-family: "Lobster", cursive;
+  margin: 5px 0px 10px;
+  text-align: center;
+}
+
+@media (min-width: 421px) {
+  .footer-main h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer-main h2 {
+    font-size: 2.4rem;
+  }
+}
+
+.footer-upper-part {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid grey;
+}
+
+@media (max-width: 510px) {
+  .footer-host-events {
+    padding: 40px 44px;
+  }
+}
+
+@media (min-width: 511px) and (max-width: 768px) {
+  .footer-host-events {
+    padding: 40px 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-host-events {
+    padding: 40px 44px;
+  }
+}
+
+.footer-host-events {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-host-events i {
+  font-size: 5rem;
+  color: #ebc013ad;
+}
+
+.footer-host-events h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px 0px 10px;
+}
+
+.footer-host-events li {
+  list-style-type: none;
+  margin-bottom: 7px;
+}
+
+.footer-host-events a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
+.footer-host-events li a {
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.footer-upper-host-icons {
+  display: flex;
+}
+
+.footer-upper-host-icons li {
+  border-radius: 50%;
+  background: #ebc013;
+  padding: 8px 12px;
+  margin: 0px 10px 0px 0px;
+}
+
+.footer-upper-host-icons i {
+  color: #fff;
+  font-size: 29px;
+}
+
+.footer-mid-part {
+  border-top: 1px solid grey;
+}
+
+.footer-mid-part h3 {
+  color: #ebc013;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.marquee {
+  background-color: transparent;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+  height: revert-layer;
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: 1s scrolling;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.marquee-content img {
+  break-before: always;
+  width: 40%;
+}
+
+.marquee-content p {
+  width: 100%;
+  position: relative;
+  right: 50%;
+  text-align: center;
+  padding-top: 86px;
+  color: #ebc013;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+.marquee-content a:hover {
+  color: #ebc013;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 600px) {
+  .marquee-content li {
+    width: 50vw;
+  }
+  .marquee-content p {
+    padding-top: 120px;
+  }
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.marquee::before,
+.marquee::after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+
+.marquee::before {
+  left: 0;
+}
+
+.marquee::after {
+  right: 0;
+}
+
+@media (max-width: 600px) {
+  .marquee::before {
+    left: 0;
+  }
+
+  .marquee::after {
+    right: 0;
+  }
+}
+
+.footer-lower-part {
+  border-top: 1px solid grey;
+}
+
+.footer-lower-part h3 {
+  color: #ebc013;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 500px) {
+  .footer-contact {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 499px) {
+  .footer-contact {
+    flex-direction: column;
+  }
+  .footer-lower-address {
+    margin-bottom: 5px;
+  }
+  .footer-phone {
+    margin-bottom: 5px;
+  }
+}
+
+.footer-lower-content {
+  padding: 20px 50px;
+  display: flex;
+}
+
+@media (min-width: 770px) {
+  .footer-lower-content {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer-lower-content {
+    flex-direction: column;
+  }
+}
+
+.footer-lower-content h4 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-lower-content h5 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-lower-content p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-lower-address {
+  display: grid;
+}
+
+.footer-corporate {
+  margin-bottom: 10px;
+}
+
+.footer-corporate h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-corporate p {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.footer-registered h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-registered p {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.footer-lower-contact {
+  display: grid;
+}
+
+.footer-phone h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-phone p {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.footer-email h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-email p {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.footer-lower-one {
+  flex: 2;
+}
+
+.footer-lower-two {
+  flex: 1;
+}
+
+@media (min-width: 770px) {
+  .footer-lower-two {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer-lower-two {
+    margin-top: 20px;
+  }
+}
+
+.footer-lower-two img {
+  width: 100%;
+}
+
+.footer-last-part {
+  padding: 40px 50px;
+  border-top: 1px solid grey;
+}
+
+.footer-last-main h5 {
+  color: #fff;
+  padding: 0px 0px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-last-events {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-last-events p {
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+}
