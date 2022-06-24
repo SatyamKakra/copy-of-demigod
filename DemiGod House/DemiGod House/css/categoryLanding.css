@@ -553,7 +553,7 @@ nav {
 
 .footer-upper-host-icons li {
   border-radius: 50%;
-  background: #ebc013;
+  /* background: #ebc013; */
   padding: 8px 12px;
   margin: 0px 10px 0px 0px;
 }
@@ -886,4 +886,68 @@ nav {
 
 
 
-
+/* banner */
+.banner_fullwidth {
+  position: relative;
+  height: 50vh;
+  background: url(../assets/images/breaker1.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 200px 0;
+  margin-bottom: 64px;
+  background-position: center center;
+  border: 2px solid gold;
+  border-radius: 10px;
+}
+.banner_fullwidth .parallax-row {
+  height: 100px;
+}
+.parallax-row {
+  width: 90%;
+  margin: auto;
+  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.banner_text {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.black_fullwidth .banner_text h2 {
+  color: #fff;
+  font-weight: 400;
+}
+.banner_text h2 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.black_fullwidth .banner_text span {
+  color: #a0a0a0;
+}
+.banner_text > span {
+  font-size: 16px;
+  margin: 0;
+  display: block;
+}
+.black_fullwidth .banner_text a {
+  color: #a8741a;
+  border: 2px solid #a8741a;
+}
+.banner_text a {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #a8741a;
+  border: 2px solid #a8741a;
+  padding: 0 45px;
+  border-radius: 3px;
+  margin-top: 70px;
+  line-height: 46px;
+  display: inline-block;
+}

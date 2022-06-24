@@ -486,13 +486,16 @@ nav {
 }
 
 .eDate-ac span {
-  font-size: 10px;
+  font-size: .7992rem;
   text-transform: uppercase;
   margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing:1px;
 }
 
 .eDate-ac p {
-  font-size: 13px;
+  font-size: .9131rem;
+    color: #888;
 }
 
 .elmRight button {
@@ -609,7 +612,7 @@ nav {
 }
 
 .ticket p {
-  margin: 0px 0px 1rem;
+  margin: 8px 0px 1rem;
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -833,7 +836,7 @@ nav {
 
 .footer-upper-host-icons li {
   border-radius: 50%;
-  background: #ebc013;
+  /* background: #ebc013; */
   padding: 8px 12px;
   margin: 0px 10px 0px 0px;
 }
@@ -1171,6 +1174,19 @@ font-family: poppins;
     padding: 0px 0px 10px;
 }
 
+.gt-social-sharing  .iconfacebook li:hover{
+  background-color: #0382ed;
+}
+.gt-social-sharing .icontwitter li:hover{
+  background-color: #55acef;
+}
+.gt-social-sharing .iconlinkedin li:hover{
+  background-color: #0077b7;
+}
+.gt-social-sharing .iconinstagram li:hover{
+  background-color: #fe096e;
+}
+
 .gt-title{
   font-size: 15px;
   font-family: poppins;
@@ -1235,3 +1251,6 @@ font-family: poppins;
   padding-bottom: 15px;
   border-bottom: 3px solid #fb0;
  } */
+
+
+ 

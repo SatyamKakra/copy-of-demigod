@@ -3296,7 +3296,7 @@ nav {
 
 .footer-upper-host-icons li {
   border-radius: 50%;
-  background: #ebc013;
+  /* background: #ebc013; */
   padding: 8px 12px;
   margin: 0px 10px 0px 0px;
 }
@@ -3304,6 +3304,19 @@ nav {
 .footer-upper-host-icons i {
   color: #fff;
   font-size: 29px;
+}
+
+.footer-upper-host-icons .iconfacebook li:hover{
+  background-color: #0382ed;
+}
+.footer-upper-host-icons .icontwitter li:hover{
+  background-color: #55acef;
+}
+.footer-upper-host-icons .iconlinkedin li:hover{
+  background-color: #0077b7;
+}
+.footer-upper-host-icons .iconinstagram li:hover{
+  background-color: #fe096e;
 }
 
 .footer-mid-part {
