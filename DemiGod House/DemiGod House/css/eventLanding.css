@@ -720,18 +720,48 @@ nav {
 
 /* Contact */
 #contact {
-  text-align: center;
+  /* text-align: center; */
   padding: 1.5rem 0rem;
-  height: 70px;
+  height: 100%;
 }
 
+#contact input{
+  margin: 15px 10px;
+  padding: 15px;
+}
+#contact label{
+ font-size: 15px !important;
+ font-weight: normal !important;
+}
+#contact input:focus{
+  border: none;
+}
+#contact textarea{
+  margin: 15px 10px 10px 10px ;
+  padding: 15px;
+}
+.submit{
+  margin-top:0px !important;
+  padding: 15px 25px !important;
+  background-color: #ffbb00;
+  color: #fff;
+  border: 1px solid #ffbb00;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.submit:hover{
+  background-color: #fff;
+  color: #ffbb00;
+}
 #contact a {
+  text-align: center !important;
   color: white;
   background-color: #fb0;
   padding: 10px 2.5rem;
+  margin: 20px;
   transition: 0.5s;
 }
-
 #contact a:hover {
   color: #fb0;
   background-color: white;
@@ -740,7 +770,19 @@ nav {
   text-decoration: none;
 }
 
+/* map */
 
+#Map {
+  height: 100% !important;
+  margin-top: 0px !important;
+}
+
+#Map iframe{
+  margin: 1rem !important;
+  width: 96%;
+  text-align: center;
+  height: 600px;
+}
 
 /* Footer */
 .footer-main {

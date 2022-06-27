@@ -890,28 +890,31 @@ nav {
 .banner_fullwidth {
   position: relative;
   height: 50vh;
-  background: url(../assets/images/breaker1.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 200px 0;
-  margin-bottom: 64px;
   background-position: center center;
   border: 2px solid gold;
   border-radius: 10px;
+  margin-right: -1rem;
+    margin-left: -1rem;
 }
 .banner_fullwidth .parallax-row {
-  height: 100px;
+  height: 200px;
 }
 .parallax-row {
-  width: 90%;
+  width: 100%;
   margin: auto;
-  padding-left: 100px;
+  padding-left: 150px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
-.banner_text {
+/* .banner-img{
+  width: 100%;
+} */
+/* .banner_text {
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
@@ -950,4 +953,4 @@ nav {
   margin-top: 70px;
   line-height: 46px;
   display: inline-block;
-}
+} */

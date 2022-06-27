@@ -948,22 +948,27 @@
 
 
  <!-- Breaker page -->
- <div  class="banner_fullwidth black_fullwidth" strength="{500}">
+ <div class="col-12 w-100"> 
+ <div  class="banner_fullwidth black_fullwidth" id="banner1">
+  
   <div class="container">
     <div class="parallax-row align-items-center">
-      <div class="col-9">
-       
-        <!-- <div class="banner_text">
-          <h2>Latest Collection</h2>
-          <span>For your Eternal beauty</span>
-          <a href="#">Shop Now</a>
-        </div> -->
-      </div>
+      <!-- <div class="banner-section" id="banner1">
+
+      </div> -->
     </div>
   </div>
 </div>
+</div>
 <!-- Breaker end  -->
 
+<!-- <script>
+  $.getJSON('data.json', function(data) { 
+for (var i in data.images) {
+    var output+=data.images[i].bannerImg1; 
+}
+document.getElementById("banner-img").innerHTML=output;}); 
+</script> -->
    
     <div class="category-main">
     <div class="category-card">
@@ -1335,6 +1340,8 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg1})`;
+            // document.getElementById("banner1").innerHTML = `<img src="${getData.bannerimg1}" width=100% />`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1435,6 +1442,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg2})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1535,6 +1543,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg3})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1635,6 +1644,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg4})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1735,6 +1745,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg5})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1835,6 +1846,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg6})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -1935,6 +1947,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg7})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -2035,6 +2048,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg8})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -2135,6 +2149,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg9})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -2235,6 +2250,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg10})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -2335,6 +2351,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg11})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
@@ -2435,6 +2452,7 @@
             document.getElementById("slide2").src = `${getData.sliderimg2}`;
             document.getElementById("slide3").src = `${getData.sliderimg3}`;
             document.getElementById("slide4").src = `${getData.sliderimg4}`;
+            document.getElementById("banner1").style.backgroundImage = `url(${getData.bannerimg12})`;
             document.getElementById("main-title").innerHTML = `${getData.mainTitle}`;
             document.getElementById("card-image1").src = `${getData.image1}`;
             document.getElementById("card-image2").src = `${getData.image2}`;
