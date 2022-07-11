@@ -29,6 +29,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="../assets/fonts/icomoon/style.css" />
     <link rel="stylesheet" href="../css/wedding.css" />
+    <link rel="stylesheet" href="../css/index.css">
 
     <!-- Slick Slider -->
     <link rel="stylesheet" type="text/css" href="../assets/slick/slick.css" />
@@ -42,7 +43,7 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
     <a href="../" class="image-home">
       <img class="nav-image" src="../assets/images/demigod-house logo-new.webp" />
     </a>
@@ -52,9 +53,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item ">
+        <!-- <li class="nav-item ">
           <a class="nav-link dropdown-name" href="../">Home</a>
-        </li>
+        </li> -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle dropdown-name" href="../DemiGodHouse/" id="navbarDropdown" role="button"
              aria-haspopup="true" aria-expanded="false">
@@ -433,7 +434,7 @@
         </li>
 
         <li class="nav-item ">
-          <a class="nav-link dropdown-name" href="../Blog/">Blog</a>
+          <a class="nav-link dropdown-name" href="../Blog/">Journal</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link dropdown-name" href="../ContactUs/">Contact Us</a>
@@ -660,12 +661,34 @@
       </ul>
       <div class="row">
         <!-- <li class="nav-item dropdown-toggle location-dropdown">Location</li> -->
-        <button type="button" class="nav-item dropdown-toggle location-dropdown" data-toggle="modal" data-target="#exampleModal">
-          <p id="location"></p>
+        <button type="button" class="nav-item  location-dropdown" data-toggle="modal" data-target="#exampleModal">
+          <p id="location" style="margin-left: 5rem;"></p>
+          <i class="fas fa-map-marker-alt marker-maps"></i>
         </button>
         <a href="../SignInSignUp/"><button class="sign-in-button"><i class="fas fa-user"></i></button></a>
       </div>
   </nav>
+
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    // var prevScrollpos = window.pageYOffset; 
+    // window.onscroll = function () { 
+    //   var o = window.pageYOffset; 
+    //   document.getElementById("nav-bar").style.top = prevScrollpos > o ? "0" : "-10rem", 
+    //   prevScrollpos = o };
+     
+  </script>
+
 
   <!-- Country Modal -->
   <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1366,11 +1389,11 @@
         <div class="footer-host-events">
           <h4>Follow Us</h4>
           <div class="footer-upper-host-icons">
-            <li><a href="https://www.facebook.com/DemiGodCloud"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://mobile.twitter.com/CloudDemigod"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://in.linkedin.com/in/demigod-cloud-2835b8224?trk=people_directory"><i
-                  class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="https://www.instagram.com/clouddemigod/"><i class="fab fa-twitter"></i></a></li>
+            <span class="iconfacebook"> <li><a href="https://www.facebook.com/DemiGodCloud"><i class="fab fa-facebook-f"></i></a></li></span>
+            <span class="iconinstagram"> <li><a href="https://www.instagram.com/clouddemigod/"><i class="fab fa-instagram"></i></a></li></span>
+             <span class="icontwitter"><li><a href="https://mobile.twitter.com/CloudDemigod"><i class="fab fa-twitter"></i></a></li></span>
+             <span class="iconlinkedin"><li><a href="https://in.linkedin.com/in/demigod-cloud-2835b8224?trk=people_directory"><i
+                   class="fab fa-linkedin-in"></i></a></li></span>
           </div>
         </div>
       </div>

@@ -57,7 +57,7 @@ nav {
   color: #fff !important;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "poppins";
 }
 
 .dropdown-name:hover {
@@ -774,7 +774,7 @@ nav {
 
 .footer-upper-host-icons li {
   border-radius: 50%;
-  background: #ebc013;
+  /* background: #ebc013; */
   padding: 8px 12px;
   margin: 0px 10px 0px 0px;
 }
@@ -783,6 +783,7 @@ nav {
   color: #fff;
   font-size: 29px;
 }
+
 
 .footer-mid-part {
   border-top: 1px solid grey;

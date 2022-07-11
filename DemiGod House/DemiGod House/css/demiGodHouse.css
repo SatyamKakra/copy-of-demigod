@@ -64,7 +64,7 @@ nav {
   color: #fff !important;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "poppins"; */
 }
 
 .dropdown-name:hover {
@@ -91,7 +91,7 @@ nav {
 }
 
 .drop-item-name::after {
-  content: "";
+  /* content: ""; */
   display: block;
   width: 0;
   height: 2px;
@@ -100,7 +100,7 @@ nav {
 }
 
 .drop-item-name:hover::after {
-  width: 65%;
+  width: 50%;
 }
 
 .drop-category-heading {
@@ -110,7 +110,7 @@ nav {
 }
 
 .active {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 600;
   padding-bottom: 0 !important;
 }
@@ -354,7 +354,7 @@ nav {
 
 /* Head-Top */
 .headTop{
-  margin: 1rem 0rem;
+  margin: 5rem 0rem;
 }
 
 .headTop h1{
@@ -843,7 +843,7 @@ nav {
 
 .footer-upper-host-icons li {
   border-radius: 50%;
-  background: #ebc013;
+  /* background: #ebc013; */
   padding: 8px 12px;
   margin: 0px 10px 0px 0px;
 }
