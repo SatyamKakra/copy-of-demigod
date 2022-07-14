@@ -1055,10 +1055,12 @@ div.break {
   float: left;
   padding-right: 6px;
   border-right: 1px solid #BEB8B8;
+  border-left: 1px solid #BEB8B8;
+    padding-left: 6px;
   margin-right: 6px;
   position: relative;
   margin-left: 3rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 
 }
 
@@ -1213,7 +1215,7 @@ div.teasers figure.background {
   left: 0;
   width: 100%;
   z-index: -1;
-  height: 126px;
+  height: 156px;
 }
 
 div.teasers figure.background img {
@@ -1224,7 +1226,7 @@ div.teasers figure.background img {
 
 div.pop.teasers figure {
   width: 458px;
-  height: 160px;
+  height: 155px;
 }
 
 div.pop.teasers figure img {
@@ -1336,4 +1338,25 @@ img.lastad {
 
 .foot h1{
   margin-left: 2rem;
+}
+
+.para p{
+  margin-top: 3rem;
+  text-align: justify;
+  border-right: 1px solid gray;
+    margin-right: 4.5rem;
+    padding: 6px
+}
+.date{
+  text-align: center;
+  margin-top: -1rem;
+  /* font-size: smaller; */
+  font-style: italic;
+  font-family: "poppins";
+  margin-bottom: -0.5rem;
+  font-weight: bold;
+  word-spacing: 10px;
+}
+.wrapper{
+  border-right: 1px solid rgb(190, 184, 184);
 }

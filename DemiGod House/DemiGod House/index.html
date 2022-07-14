@@ -669,24 +669,7 @@
   </nav>
 
 
-  <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-      } else {
-        document.getElementById("navbar").style.top = "-50px";
-      }
-      prevScrollpos = currentScrollPos;
-    }
-    // var prevScrollpos = window.pageYOffset; 
-    // window.onscroll = function () { 
-    //   var o = window.pageYOffset; 
-    //   document.getElementById("nav-bar").style.top = prevScrollpos > o ? "0" : "-10rem", 
-    //   prevScrollpos = o };
-     
-  </script>
+  
 
   <!-- Country Modal -->
   <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -7626,18 +7609,24 @@
       </div>
     </div>
   </div>
+
+
   <script>
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
+        $(".navbar").addClass("active1");
       } else {
         document.getElementById("navbar").style.top = "-50px";
+        $("navbar").removeClass("active1");
       }
       prevScrollpos = currentScrollPos;
     }
   </script>
+
+
   <!-- Scripts -->
   <script src="./js/jquery_3.2.1/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="./js/popper.min.js" crossorigin="anonymous"></script>

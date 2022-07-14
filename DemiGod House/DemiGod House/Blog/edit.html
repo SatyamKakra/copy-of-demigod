@@ -269,3 +269,62 @@
     </div>
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+      const id = window.location.search.substr(1).split('=')[1];
+      const data = fetch("../blogs.json");
+      if (id == 1) {
+        data
+          .then(res => res.json()
+            .then(val => {
+              const getData = val.find(getRes => getRes.id == id);
+              document.getElementById("blog-title").innerHTML = `${getData.blogTitle}`;
+              document.getElementById("blog-image1").src = `${getData.image1}`;
+              
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    } else if (id == 2) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            document.getElementById("blog-title").innerHTML = `${getData.blogTitle}`;
+            document.getElementById("blog-image1").src = `${getData.image1}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    } 
+    </script>
+    <script>
+      addblog1 = () => {
+        var Img = document.getElementById("blog-image1").innerHTML;
+        localStorage.setItem("Img", Img);
+        
+      }
+    </script>
+    <script>
+      addblog2 = () => {
+        var Img = document.getElementById("blog-image2").innerHTML;
+        localStorage.setItem("Img", Img);
+        
+      }
+    </script>

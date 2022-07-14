@@ -276,6 +276,7 @@ nav {
 
 
 .dropdown-name {
+  
   color: rgb(252, 249, 249) !important;
   font-size: 16px;
   font-weight: 600;
@@ -304,6 +305,7 @@ nav {
 .navbar .dropdown-menu {
   border: none;
   background-color: #fff !important;
+  
 
 }
 
@@ -401,6 +403,7 @@ nav {
   padding: 10px;
   border-radius: 50%;
   transition: .5s;
+  font-size: 25px;
 }
 
 .sign-in-button i:hover {
@@ -411,10 +414,21 @@ nav {
 }
 
 .navbar {
-  z-index: 999;
+  /* z-index: 999; */
   background-color: #141414;
-  ;
+  position: fixed;
+	z-index: 1000;
+	height: 100px;
+  width: 100%; 
+	/* background: rgba(173, 166, 166, 0.25); */
+	padding: 18px;
+	-webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+ 
 }
+
 
 @media (max-width: 992px) {
   .navbar {
@@ -632,11 +646,11 @@ nav {
 }
 
 .map-slider-prev {
-  margin-left: -0.5rem;
+  margin-left: 0rem;
 }
 
 .map-slider-next {
-  margin-right: -0.39rem;
+  margin-right: 0rem;
 }
 
 .map-slider-prev-icon i,
@@ -2829,7 +2843,7 @@ nav {
   border-radius: 50%;
   padding: 5px 10px;
   position: absolute;
-  right: 0%;
+  right: 0.5rem;
   bottom: 45%;
   cursor: pointer;
   display: block !important;
@@ -4022,3 +4036,14 @@ nav {
     margin-left: -38rem
 } */
 
+
+ .active1 {
+  background-color: rgba(248, 240, 240, 0.8);
+ 
+}
+.active1 .dropdown-name {
+  color: #ebc013 !important;
+}
+.active1 .location-dropdown p{
+  color: #ebc013 !important;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "blogTitle": "What Does the Future of Event Management Look Like?",
+        "image1": "../assets/images/blog_1.webp",
+        "pimg1": "../assets/images/blog_1.webp"
+        
+    },
+
+    {
+        "id": 2,
+        "blogTitle":"ROCKX Rentals - Check Out Our Event Decor Rentals",
+        "image2": "../assets/images/blog_2.webp",
+        "pimg2": "../assets/images/blog_2.webp"
+    },
+
+    {
+        "id": 3,
+        "blogtitle":"HOW TO BOOK A HOTEL FOR YOUR GUESTS",
+        "image3": "../assets/images/blog_2.webp"
+    }
+]
