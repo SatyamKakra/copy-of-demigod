@@ -4038,8 +4038,8 @@ nav {
 
 
  .active1 {
-  background-color: rgba(248, 240, 240, 0.8);
- 
+  /* background-color: rgba(248, 240, 240, 0.8); */
+  background: snow;
 }
 .active1 .dropdown-name {
   color: #ebc013 !important;
