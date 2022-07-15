@@ -1,22 +1,102 @@
 [
     {
         "id": 1,
-        "blogTitle": "What Does the Future of Event Management Look Like?",
-        "image1": "../assets/images/blog_1.webp"
-        
-        
+        "mainTitle": "What Does the Future of Event Management Look Like?",
+        "image1": "../assets/images/blog_1.webp",
+        "heading1":"RAIDERS OF THE LOST ARK (1981)",
+        "heading2":"MAD MAX 2 (1981)",
+        "description1": "Combing their love of the 1930s serials with an affection for James Bond, George Lucas and Steven Spielberg came up with archeologist, treasure hunter, and soldier of fortune Indiana Jones. Played with effortless charm by Harrison Ford, his first adventure found “Indy” competing with the Nazis to find the fabled Ark of the Covenant. The film combed action, adventure, romance, drama, and a dash of horror in irresistible fashion. So much so that Indy returned in three more flicks, with another apparently on its way. But there were far more pretenders to his fedora, with the intervening years filled with rip-offs — some good (Romancing the Stone, National Treasure, Tomb Raider, The Mummy) and some bad (High Road to China, Sahara, Sky Pirates, Jungle Raiders).",
+        "description2": "If the original Mad Max was a film about the title character losing his humanity, this sequel — retitled The Road Warrior in America — saw him regain it, with Max helping to protect a peaceful community of settlers against a gang of violent marauders. But the power of Mad Max 2 isn’t in its plot. Instead, it comes from the film’s look — a post-apocalyptic punk aesthetic that has influenced everything from video games (Fallout) and festivals (Burning Man) to comic book characters (Tank Girl) and music videos (Phil Collins’ “Don’t Lose My Number“). Then there’s the action itself, with much of the movie an adrenalin-fuelled chase sequence that has been aped and copied ever since. But the only film that has come close to matching it for insane stunts and onscreen carnage is the belated sequel, Mad Max: Fury Road."
     },
 
     {
         "id": 2,
-        "blogTitle":"ROCKX Rentals - Check Out Our Event Decor Rentals",
+        "mainTitle": "ROCKX Rentals - Check Out Our Event Decor Rentals",
         "image2": "../assets/images/blog_2.webp",
-        "pimg2": "../assets/images/blog_2.webp"
+        "heading3":"RAIDERS OF THE LOST ARK (1981)",
+        "heading4":"MAD MAX 2 (1981)",
+        "description3":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description4":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
     },
-
     {
         "id": 3,
-        "blogtitle":"HOW TO BOOK A HOTEL FOR YOUR GUESTS",
-        "image3": "../assets/images/blog_2.webp"
+        "mainTitle": "HOW TO BOOK A HOTEL FOR YOUR GUESTS",
+        "image3": "../assets/images/blog_3.webp",
+        "heading5":"RAIDERS OF THE LOST ARK (1981)",
+        "heading6":"MAD MAX 2 (1981)",
+        "description5":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description6":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 4,
+        "mainTitle": "How to Budget for Your Event",
+        "image4": "../assets/images/blog_4.webp",
+        "heading7":"RAIDERS OF THE LOST ARK (1981)",
+        "heading8":"MAD MAX 2 (1981)",
+        "description7":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description8":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 5,
+        "mainTitle": "Party Planner Tricks for an Almost Stress-Free Event",
+        "image5": "../assets/images/blog_5.webp",
+        "heading9":"RAIDERS OF THE LOST ARK (1981)",
+        "heading10":"MAD MAX 2 (1981)",
+        "description9":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description10":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 6,
+        "mainTitle": "How to Make your Corporate Event Fun",
+        "image6": "../assets/images/blog_6.webp",
+        "heading11":"RAIDERS OF THE LOST ARK (1981)",
+        "heading12":"MAD MAX 2 (1981)",
+        "description11":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description12":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 7,
+        "mainTitle": "How to Include Diversity in Events?",
+        "image7": "../assets/images/blog_7.webp",
+        "heading13":"RAIDERS OF THE LOST ARK (1981)",
+        "heading14":"MAD MAX 2 (1981)",
+        "description13":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description14":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 8,
+        "mainTitle": "5 Things You NEED For Your Corporate Event",
+        "image8": "../assets/images/blog_8.webp",
+        "heading15":"RAIDERS OF THE LOST ARK (1981)",
+        "heading16":"MAD MAX 2 (1981)",
+        "description15":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description16":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 9,
+        "mainTitle": "How to Plan a Stunning LA Winter Party",
+        "image9": "../assets/images/blog_9.webp",
+        "heading17":"RAIDERS OF THE LOST ARK (1981)",
+        "heading18":"MAD MAX 2 (1981)",
+        "description17":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description18":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 10,
+        "mainTitle": "How to Spruce Up a Thanksgiving Day Soiree",
+        "image10": "../assets/images/blog_10.webp",
+        "heading19":"RAIDERS OF THE LOST ARK (1981)",
+        "heading20":"MAD MAX 2 (1981)",
+        "description19":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description20":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+    },
+    {
+        "id": 11,
+        "mainTitle": "RNE takes NYC!!",
+        "image11": "../assets/images/blog_11.webp",
+        "heading21":"RAIDERS OF THE LOST ARK (1981)",
+        "heading22":"MAD MAX 2 (1981)",
+        "description21":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
+        "description22":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
     }
 ]

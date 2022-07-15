@@ -1063,6 +1063,9 @@ div.break {
   margin-top: 1rem;
 
 }
+.columns2 a:hover{
+  text-decoration: none;
+}
 
 article p {
   margin: 0.25em 0;
@@ -1139,7 +1142,7 @@ article.cols4 {
 }
 
 div.teasers {
-  width: 460px;
+  width: 442px;
   background: rgb(172, 162, 122);
   height: 221px;
   position: relative;
@@ -1154,6 +1157,9 @@ div.teasers h1 {
   margin: 0;
   padding: 5px;
   font-size: 22px;
+}
+.teasers a:hover{
+  text-decoration: none;
 }
 
 div.teasers h2 {
@@ -1296,6 +1302,10 @@ figcaption {
   width: 275px;
 }
 
+.columns1 a:hover{
+  text-decoration: none;
+}
+
 .columns2.van-dyck h2 {
   background: #98BCDB;
   color: #004A83;
@@ -1339,6 +1349,11 @@ img.lastad {
 .foot h1{
   margin-left: 2rem;
 }
+
+.foot a:hover{
+  text-decoration: none;
+}
+
 
 .para p{
   margin-top: 3rem;

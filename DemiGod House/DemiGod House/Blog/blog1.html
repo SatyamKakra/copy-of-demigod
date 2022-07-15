@@ -820,7 +820,7 @@
     
   <main>
     <section>
-      <p class="intro">What Does the Future of Event Management Look Like?</p>
+      <p class="intro" id="main-titles"></p>
       <article>
         <!-- Ad -->
         <div class="Ad">
@@ -830,31 +830,13 @@
         
 
 
-        <h3>RAIDERS OF THE LOST ARK (1981)</h3>
-        <p>Combing their love of the 1930s serials with an affection for James Bond, George Lucas and Steven Spielberg
-          came up with archeologist, treasure hunter, and soldier of fortune Indiana Jones. Played with effortless charm
-          by Harrison Ford, his first adventure
-          found “Indy” competing with the Nazis to find the fabled Ark of the Covenant. The film combed action,
-          adventure, romance, drama, and a dash of horror in irresistible fashion. So much so that Indy returned in
-          three more flicks, with another apparently
-          on its way. But there were far more pretenders to his fedora, with the intervening years filled with rip-offs
-          — some good (Romancing the Stone, National Treasure, Tomb Raider, The Mummy) and some bad (High Road to China,
-          Sahara, Sky Pirates, Jungle
-          Raiders).</p>
+        <h3  id="blog-heading1"></h3>
+        <p id="blog-description1"></p>
 
-        <div class="placeHolder_img"></div>
+        <div class="placeHolder_img" id="main-image"></div>
 
-        <h3>MAD MAX 2 (1981)</h3>
-        <p>If the original Mad Max was a film about the title character losing his humanity, this sequel — retitled The
-          Road Warrior in America — saw him regain it, with Max helping to protect a peaceful community of settlers
-          against a gang of violent marauders.
-          But the power of Mad Max 2 isn’t in its plot. Instead, it comes from the film’s look — a post-apocalyptic punk
-          aesthetic that has influenced everything from video games (Fallout) and festivals (Burning Man) to comic book
-          characters (Tank Girl) and
-          music videos (Phil Collins’ “Don’t Lose My Number“). Then there’s the action itself, with much of the movie an
-          adrenalin-fuelled chase sequence that has been aped and copied ever since. But the only film that has come
-          close to matching it for insane
-          stunts and onscreen carnage is the belated sequel, Mad Max: Fury Road.</p>
+        <h3 id="blog-heading2"></h3>
+        <p id="blog-description2"></p>
 
 
 
@@ -1117,6 +1099,233 @@
       </div>
     </div>
   </div>
+
+  <!-- Scripts -->
+  <script src="../js/jquery_3.2.1/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="../js/popper.min.js" crossorigin="anonymous"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.slim.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // executes when HTML-Document is loaded and DOM is ready
+
+      // breakpoint and up  
+      $(window).resize(function () {
+        if ($(window).width() >= 980) {
+
+          // when you hover a toggle show its dropdown menu
+          $(".navbar .dropdown-toggle").hover(function () {
+            $(this).parent().toggleClass("show");
+            $(this).parent().find(".dropdown-menu").toggleClass("show");
+          });
+
+          // hide the menu when the mouse leaves the dropdown
+          $(".navbar .dropdown-menu").mouseleave(function () {
+            $(this).removeClass("show");
+          });
+
+          // do something here
+        }
+      });
+
+
+
+      // document ready  
+    });
+  </script>
+  <script src="../js/fontAwesomeKit.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
+  <script>
+    if (localStorage.getItem("location") === null) {
+      document.getElementById("location").innerHTML = "Select Location";
+    }
+    else {
+      document.getElementById("location").innerHTML = localStorage.getItem("location");
+    }
+  </script>
+  <script src="../js/locations.js"></script>
+  <script>
+    const id = window.location.search.substr(1).split('=')[1];
+    const data = fetch("../blogs.json");
+    if (id == 1) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image1})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading1}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading2}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description1}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description2}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    } else if (id == 2) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image2})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading3}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading4}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description3}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description4}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 3) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image3})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading5}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading6}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description5}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description6}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 4) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image4})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading7}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading8}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description7}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description8}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 5) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image5})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading9}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading10}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description9}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description10}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 6) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image6})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading11}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading12}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description11}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description12}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 7) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image7})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading13}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading14}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description13}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description14}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 8) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image8})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading15}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading16}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description15}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description16}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 9) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image9})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading17}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading18}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description17}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description18}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 10) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image10})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading19}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading20}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description19}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description20}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 11) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main-titles").innerHTML = `${getData.mainTitle}`;
+            document.getElementById("main-image").style.backgroundImage = `url(${getData.image11})`;
+            document.getElementById("blog-heading1").innerHTML = `${getData.heading21}`;
+            document.getElementById("blog-heading2").innerHTML = `${getData.heading22}`;
+            document.getElementById("blog-description1").innerHTML = `${getData.description21}`;
+            document.getElementById("blog-description2").innerHTML = `${getData.description22}`;
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }
+            </script>
 
   <!-- 
     <div class="foot">
