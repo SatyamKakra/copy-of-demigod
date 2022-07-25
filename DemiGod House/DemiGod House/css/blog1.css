@@ -620,6 +620,7 @@ h1 {
   flex-direction: column;
   position: relative;
   z-index: unset;
+  margin-top: -4rem;
 }
 .cWbeuJ {
   display: flex;
@@ -1081,6 +1082,7 @@ h1 {
 .row1 p{
   font-size: large;
   font-family: "poppins";
+  text-align: justify;
   /* color: white; */
 }
 

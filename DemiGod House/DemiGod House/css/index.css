@@ -285,9 +285,10 @@ nav {
 }
 
 .dropdown-name:hover {
-  color: #ebc013 !important;
+  color: #e3bd2d !important;
   border-top: 0.5px solid #e3bd2d;
     border-left: 0.5px solid #e3bd2d;
+    
 }
 
 @media (min-width: 990px) and (max-width: 1274px) {
@@ -4042,8 +4043,9 @@ nav {
   background: snow;
 }
 .active1 .dropdown-name {
-  color: #ebc013 !important;
+  color: #080808 !important;
 }
 .active1 .location-dropdown p{
-  color: #ebc013 !important;
+  color: #0a0a0a !important;
 }
+

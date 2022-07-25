@@ -1067,6 +1067,12 @@ div.break {
   text-decoration: none;
 }
 
+.columns2 h1{
+  color: #000;
+}
+
+
+
 article p {
   margin: 0.25em 0;
   line-height: 16px;
@@ -1087,6 +1093,10 @@ article.cols2 {
   font-weight: bold;
   padding-bottom: 20px;
 }
+.byline{
+  color: #000;
+}
+
 
 article.cols4 {
   -moz-column-count: 4;
@@ -1348,6 +1358,7 @@ img.lastad {
 
 .foot h1{
   margin-left: 2rem;
+  color: #000;
 }
 
 .foot a:hover{
@@ -1374,4 +1385,35 @@ img.lastad {
 }
 .wrapper{
   border-right: 1px solid rgb(190, 184, 184);
+}
+
+
+
+
+/* responsive */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

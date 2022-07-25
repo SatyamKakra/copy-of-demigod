@@ -6,7 +6,19 @@
         "heading1":"RAIDERS OF THE LOST ARK (1981)",
         "heading2":"MAD MAX 2 (1981)",
         "description1": "Combing their love of the 1930s serials with an affection for James Bond, George Lucas and Steven Spielberg came up with archeologist, treasure hunter, and soldier of fortune Indiana Jones. Played with effortless charm by Harrison Ford, his first adventure found “Indy” competing with the Nazis to find the fabled Ark of the Covenant. The film combed action, adventure, romance, drama, and a dash of horror in irresistible fashion. So much so that Indy returned in three more flicks, with another apparently on its way. But there were far more pretenders to his fedora, with the intervening years filled with rip-offs — some good (Romancing the Stone, National Treasure, Tomb Raider, The Mummy) and some bad (High Road to China, Sahara, Sky Pirates, Jungle Raiders).",
-        "description2": "If the original Mad Max was a film about the title character losing his humanity, this sequel — retitled The Road Warrior in America — saw him regain it, with Max helping to protect a peaceful community of settlers against a gang of violent marauders. But the power of Mad Max 2 isn’t in its plot. Instead, it comes from the film’s look — a post-apocalyptic punk aesthetic that has influenced everything from video games (Fallout) and festivals (Burning Man) to comic book characters (Tank Girl) and music videos (Phil Collins’ “Don’t Lose My Number“). Then there’s the action itself, with much of the movie an adrenalin-fuelled chase sequence that has been aped and copied ever since. But the only film that has come close to matching it for insane stunts and onscreen carnage is the belated sequel, Mad Max: Fury Road."
+        "description2": "If the original Mad Max was a film about the title character losing his humanity, this sequel — retitled The Road Warrior in America — saw him regain it, with Max helping to protect a peaceful community of settlers against a gang of violent marauders. But the power of Mad Max 2 isn’t in its plot. Instead, it comes from the film’s look — a post-apocalyptic punk aesthetic that has influenced everything from video games (Fallout) and festivals (Burning Man) to comic book characters (Tank Girl) and music videos (Phil Collins’ “Don’t Lose My Number“). Then there’s the action itself, with much of the movie an adrenalin-fuelled chase sequence that has been aped and copied ever since. But the only film that has come close to matching it for insane stunts and onscreen carnage is the belated sequel, Mad Max: Fury Road.",
+      
+      
+      
+        "otherimg1":"../assets/images/blog_2.webp",
+       "otherheading1":"ROCKX Rentals - Check Out Our Event Decor Rentals",
+       "blogp1":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae neque cum, ex ut facilis cumque minima. Nam omnis quibusdam numquam.",
+       "otherimg2":"../assets/images/blog_5.webp",
+       "otherheading2":"HOW TO BOOK A HOTEL FOR YOUR GUESTS",
+       "blogp2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem, libero explicabo earum molestias commodi delectus modi consectetur placeat quae.",
+       "otherimg3":"../assets/images/blog_4.webp",
+       "otherheading3":"How to Budget for Your Event",
+       "blogp3":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ad nobis repudiandae eos veniam consequatur minima quae aspernatur eaque!"
     },
 
     {
@@ -16,7 +28,19 @@
         "heading3":"RAIDERS OF THE LOST ARK (1981)",
         "heading4":"MAD MAX 2 (1981)",
         "description3":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum ad nam est pariatur dolorem quaerat nihil, laborum perspiciatis numquam.Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "description4":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und."
+        "description4":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nesciunt eveniet repudiandae, animi corporis quasi deserunt, rem aliquid, quibusdam quod cum fugiat praesentium aperiam. Reprehenderit perferendis libero sapiente impedit repellendus consectetur consequatur esse mollitia numquam non repellat quis, fugit deleniti. Commodi odit consectetur iusto voluptatum magni enim cum minus libero expedita quasi esse, quis fugiat quo, ratione amet ea. Unde quas consequuntur optio atque quo magni, quaerat corrupti. Laboriosam nihil, ab, omnis eius error rerum magnam corrupti, voluptas cumque necessitatibus sequi animi itaque? A nemo enim placeat perferendis quasi in esse cum beatae, quo, saepe facilis inventore facere repellendus fugiat et mollitia totam! Optio nesciunt provident dolor aspernatur und.",
+        
+        
+        "otherimg4":"../assets/images/blog_2.webp",
+       "otherheading4":"ROCKX Rentals - Check Out Our Event Decor Rentals",
+       "blogp4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae neque cum, ex ut facilis cumque minima. Nam omnis quibusdam numquam.",
+       "otherimg5":"../assets/images/blog_5.webp",
+       "otherheading5":"HOW TO BOOK A HOTEL FOR YOUR GUESTS",
+       "blogp5":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolorem, libero explicabo earum molestias commodi delectus modi consectetur placeat quae.",
+       "otherimg6":"../assets/images/blog_4.webp",
+       "otherheading6":"How to Budget for Your Event",
+       "blogp6":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ad nobis repudiandae eos veniam consequatur minima quae aspernatur eaque!"
+       
     },
     {
         "id": 3,
