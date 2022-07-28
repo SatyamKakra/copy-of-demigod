@@ -426,6 +426,7 @@ nav {
 .category-location-date span, .category-location-date p{
     color: #777;
     font-size: 1rem;
+    margin-left: 1rem
 }
 
 .category-location-date button{
@@ -439,6 +440,30 @@ nav {
     font-size: 12px;
     cursor: pointer;
 }
+
+
+.location{
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.location button{
+  color: white;
+    text-transform: uppercase;
+    background-color: #fb0;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 1rem;
+    font-family: Poppins;
+    font-size: 12px;
+    cursor: pointer;
+}
+.location p{
+  color: #777;
+    font-size: 1rem;
+    margin-left: 1.5rem
+}
+
 
 .category-card-description{
     margin: 1rem 0rem 0rem;

@@ -8104,7 +8104,7 @@ button.bg-dark:hover {
 }
 
 .h-100 {
-  height: 100% !important;
+  /* height: 100% !important; */
 }
 
 .mw-100 {
@@ -8415,7 +8415,7 @@ button.bg-dark:hover {
 .mr-auto,
 .mx-auto {
   margin-right: auto !important;
-  margin-left: 1rem;
+  margin-left: -20rem;
 }
 
 .mb-auto,

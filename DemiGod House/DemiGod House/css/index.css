@@ -200,10 +200,9 @@ html {
 }
 
 /* Navigation Bar */
+
 nav {
   line-height: 17px;
-  
-
 }
 
 #navbar {
@@ -211,7 +210,6 @@ nav {
   top: 0;
   transition: top 0.3s;
   width: 100%;
-  
 }
 #category-name-effect,
 #category-name-effect2 {
@@ -270,7 +268,7 @@ nav {
 }
 
 .navbar .dropdown-menu div[class*="col"] {
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   
 }
 
@@ -461,7 +459,7 @@ nav {
   /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
   .navbar .nav-item {
     padding: 0.5rem 0rem;
-    margin: 0 0.25rem;
+    /* margin: 0 0.25rem; */
   }
 
   /* makes the dropdown full width  */
@@ -4049,3 +4047,17 @@ nav {
   color: #0a0a0a !important;
 }
 
+
+
+/* .car1 {
+  position: absolute;
+  top: 245px;
+  left: 145px;
+  color: yellow;
+}
+.car2 {
+  position: absolute;
+  top: 200px;
+  left: 145px;
+  color: yellow;
+} */
